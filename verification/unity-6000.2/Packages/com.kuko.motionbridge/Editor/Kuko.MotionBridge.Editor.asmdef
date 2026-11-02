@@ -1,0 +1,18 @@
+{
+  "name": "Kuko.MotionBridge.Editor",
+  "rootNamespace": "Kuko.MotionBridge.Editor",
+  "references": [
+    "Kuko.MotionBridge.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

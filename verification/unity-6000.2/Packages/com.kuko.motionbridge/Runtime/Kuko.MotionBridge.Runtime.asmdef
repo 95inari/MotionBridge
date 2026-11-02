@@ -1,0 +1,14 @@
+{
+  "name": "Kuko.MotionBridge.Runtime",
+  "rootNamespace": "Kuko.MotionBridge",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

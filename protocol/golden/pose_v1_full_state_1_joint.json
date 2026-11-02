@@ -1,0 +1,19 @@
+{
+  "sessionId": 305419896,
+  "sequence": 7,
+  "timestampUsec": 123000,
+  "frameIndex": 42,
+  "flags": 3,
+  "jointCount": 1,
+  "packetBytes": 256,
+  "trajectoryRootPosition": [1.0, 2.0, 3.0],
+  "trajectoryRootRotation": [0.0, 0.0, 0.0, 1.0],
+  "hipsLocalPositionDelta": [0.1, 0.2, 0.3],
+  "presentMask": 1,
+  "jointRotations": [[0.0, 0.0, 0.0, 1.0]],
+  "contactWeights": [0.75, 0.5, 0.25, 0.0],
+  "contactEpochs": [17, 18, 19, 20],
+  "contactAnchorPositions": [[1.0, 0.0, 0.0], [2.0, 0.0, 0.0], [3.0, 0.0, 0.0], [4.0, 0.0, 0.0]],
+  "contactAnchorRotations": [[0.0, 0.0, 0.0, 1.0], [0.0, 0.0, 0.0, 1.0], [0.0, 0.0, 0.0, 1.0], [0.0, 0.0, 0.0, 1.0]],
+  "groundPlane": [0.0, 1.0, 0.0, -0.2]
+}

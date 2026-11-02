@@ -1,0 +1,11 @@
+Motion Bridge Blender Extension
+Copyright (c) 2026 kuko
+
+The license identifiers declared in blender_manifest.toml are MIT and
+GPL-3.0-or-later. The corresponding complete license texts are included in
+licenses/MIT.txt and licenses/GPL-3.0-or-later.txt in the distribution ZIP.
+
+This notice concerns the Blender extension source code. It does not assign
+the same licenses to the separately distributed Unity package, documentation,
+or Canonical sample assets. See the distribution's Licenses directory for
+their terms.

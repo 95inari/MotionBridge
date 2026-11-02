@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+*.zip
+*.tgz
+/dist/
+*.blend1
+Library/
+Temp/
+Logs/
+obj/
+UserSettings/
+verification/unity-6000.2/ProjectSettings/SceneTemplateSettings.json
+
+# Unity-generated recovery data and third-party Asset Store content.
+# Re-import Human Character Dummy from the owner's licensed Unity account.
+/verification/unity-6000.2/Assets/_Recovery/
+/verification/unity-6000.2/Assets/_Recovery.meta
+/verification/unity-6000.2/Assets/Kevin Iglesias/
+/verification/unity-6000.2/Assets/Kevin Iglesias.meta
+
+# Local development and publication outputs.
+/build/
+.ruff_cache/
+/samples/poc_manifest.json

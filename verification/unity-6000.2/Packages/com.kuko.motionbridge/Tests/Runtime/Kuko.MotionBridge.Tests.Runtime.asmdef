@@ -1,0 +1,23 @@
+{
+  "name": "Kuko.MotionBridge.Tests.Runtime",
+  "rootNamespace": "Kuko.MotionBridge.Tests",
+  "references": [
+    "Kuko.MotionBridge.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

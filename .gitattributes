@@ -1,0 +1,2 @@
+*.meta whitespace=-blank-at-eol
+verification/**/ProjectSettings/*.asset whitespace=-blank-at-eol

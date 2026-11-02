@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Motion Bridge Protocol v1 constants",
+  "protocol": {
+    "major": 1,
+    "minor": 0,
+    "byteOrder": "little-endian",
+    "maxPacketBytes": 1200,
+    "controlLengthPrefixBytes": 4,
+    "maxControlPayloadBytes": 65536,
+    "maxDescriptorJointCount": 64,
+    "maxPoseJointCount": 60,
+    "defaultControlPort": 39871
+  },
+  "posePacket": {
+    "magic": "MBP1",
+    "messageType": 1,
+    "headerBytes": 32,
+    "fixedPayloadBytes": 208,
+    "contactBlockBytes": 160,
+    "quaternionBytes": 16,
+    "quaternionOrder": ["x", "y", "z", "w"],
+    "packetBytesFormula": "32 + 208 + 16 * jointCount",
+    "maximumTransportJointCount": 60,
+    "fields": [
+      "trajectoryRootPosition",
+      "trajectoryRootRotation",
+      "hipsLocalPositionDelta",
+      "presentMask",
+      "jointRotations",
+      "contactWeights",
+      "contactEpochs",
+      "contactAnchorPositions",
+      "contactAnchorRotations",
+      "groundPlane"
+    ],
+    "packetOffsets": {
+      "trajectoryRootPosition": 32,
+      "trajectoryRootRotation": 44,
+      "hipsLocalPositionDelta": 60,
+      "presentMask": 72,
+      "jointRotations": 80,
+      "contactWeights": "80 + 16 * jointCount",
+      "contactEpochs": "96 + 16 * jointCount",
+      "contactAnchorPositions": "112 + 16 * jointCount",
+      "contactAnchorRotations": "160 + 16 * jointCount",
+      "groundPlane": "224 + 16 * jointCount"
+    }
+  }
+}

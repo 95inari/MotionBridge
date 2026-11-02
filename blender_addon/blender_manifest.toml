@@ -1,0 +1,27 @@
+schema_version = "1.0.0"
+
+id = "motion_bridge"
+version = "0.1.13"
+name = "Motion Bridge"
+tagline = "Edit humanoid motion and preview it live in Unity"
+maintainer = "kuko"
+type = "add-on"
+
+tags = ["Animation", "Rigging", "Import-Export"]
+blender_version_min = "4.5.0"
+
+license = ["SPDX:MIT", "SPDX:GPL-3.0-or-later"]
+copyright = ["2026 kuko"]
+
+[permissions]
+files = "Import and export local humanoid animation files"
+network = "Send live humanoid poses to a local Unity Editor"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "tests/",
+  "tools/",
+  ".pytest_cache/",
+  ".ruff_cache/",
+]

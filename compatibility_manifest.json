@@ -1,0 +1,36 @@
+{
+  "blender": {
+    "extensionVersion": "0.1.13",
+    "supportedVersions": [
+      "4.5 LTS",
+      "5.0"
+    ]
+  },
+  "capabilities": {
+    "enabledEndToEnd": [
+      "clock-sync-v1",
+      "global-rest-delta-v1",
+      "one-way-pose-age-v1",
+      "pose-stats-v1"
+    ],
+    "reservedNotAdvertised": [
+      "contacts-v1"
+    ]
+  },
+  "dataSchemas": {
+    "correctionEnvelope": 1,
+    "correctionLayer": 1,
+    "retargetRecipe": 1,
+    "sourceMappingProfile": 1,
+    "sourceTake": 2
+  },
+  "protocol": {
+    "major": 1,
+    "minor": 0
+  },
+  "schemaVersion": 1,
+  "unity": {
+    "editorVersion": "6000.2",
+    "packageVersion": "0.1.1"
+  }
+}

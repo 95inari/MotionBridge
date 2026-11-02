@@ -1,0 +1,29 @@
+{
+  "name": "com.kuko.motionbridge",
+  "version": "0.1.1",
+  "displayName": "Motion Bridge",
+  "description": "Preview Blender humanoid motion on Unity Humanoid avatars in real time.",
+  "unity": "6000.2",
+  "dependencies": {
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  },
+  "keywords": [
+    "animation",
+    "humanoid",
+    "blender",
+    "live-link"
+  ],
+  "samples": [
+    {
+      "displayName": "Canonical Source Avatar",
+      "description": "Generated Humanoid Source Avatar used for canonical HumanPose conversion.",
+      "path": "Samples~/Canonical"
+    }
+  ],
+  "author": {
+    "name": "kuko"
+  },
+  "license": "SEE LICENSE IN LICENSE.md"
+}
